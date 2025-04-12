@@ -1,0 +1,5 @@
+# get_column
+comment = 'A PostgreSQL extension to get column values easily from a row.'
+default_version = '1.0.0'
+module_pathname = 'extension/get_column'
+relocatable = false

@@ -1,0 +1,25 @@
+{
+  "name": "get_column",
+  "abstract": "Dynamic column extraction from a record in PostgreSQL",
+  "description": "Fetch a column value from a record by name, case-insensitive.",
+  "version": "1.0.0",
+  "maintainer": "Ajibewa Irekanmi <yourdevaji@gmail.com>",
+  "license": "postgresql",
+  "provides": {
+    "get_column": {
+      "file": "get_column--1.0.sql",
+      "version": "1.0.0"
+    }
+  },
+  "tags": ["record", "dynamic", "utility", "column", "row", "extension"],
+  "resources": {
+    "homepage": "https://github.com/yourname/get_column",
+    "repository": {
+      "url": "https://github.com/yourname/get_column",
+      "type": "git"
+    },
+    "bugtracker": {
+      "web": "https://github.com/yourname/get_column/issues"
+    }
+  }
+}
