@@ -4,22 +4,29 @@
   "description": "Fetch a column value from a record by name, case-insensitive.",
   "version": "1.0.0",
   "maintainer": "Ajibewa Irekanmi <yourdevaji@gmail.com>",
-  "license": "postgresql",
+  "license": {
+    "PostgreSQL": "https://www.postgresql.org/about/licence"
+  },
   "provides": {
     "get_column": {
       "file": "get_column--1.0.sql",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "abstract": "Fetch a column value from a record by name"
     }
   },
   "tags": ["record", "dynamic", "utility", "column", "row", "extension"],
   "resources": {
-    "homepage": "https://github.com/yourname/get_column",
+    "homepage": "https://github.com/academix-admin/get_column",
     "repository": {
-      "url": "https://github.com/yourname/get_column",
+      "url": "https://github.com/academix-admin/get_column",
       "type": "git"
     },
     "bugtracker": {
-      "web": "https://github.com/yourname/get_column/issues"
+      "web": "https://github.com/academix-admin/get_column/issues"
     }
+  },
+  "meta-spec": {
+    "version": "1.0.0",
+    "url": "https://pgxn.org/meta/spec.txt"
   }
 }
